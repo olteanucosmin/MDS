@@ -1,0 +1,123 @@
+body{
+    background-color: #d4dee6;
+}
+
+::-webkit-scrollbar {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d4dee6;
+}
+
+::-webkit-scrollbar-thumb{
+    background: cornflowerblue;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #649bf3;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.container{
+    display: flex;
+    float: top;
+    justify-content: center;
+    position: relative;
+    top:5vh;
+
+}
+
+.tabel{
+    border-width: 2px;
+    border-color: #6482da;
+    border-style: solid;
+    display: block;
+    float: top;
+    position: relative;
+    left: 0%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+th {
+    border-right-width: 1px;
+    border-right-color: #6482da;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #6482da;
+    border-bottom-style: solid;
+    margin: auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    min-width: 80px;
+    font-size: 17px;
+
+}
+
+td{
+    border-right-width: 1px;
+    border-right-color: #6482da;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #6482da;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-top-color: #6482da;
+    border-top-style: solid;
+    margin: auto;
+    padding:5px;
+    color: midnightblue;
+}
+
+button{
+    display: inline-block;
+    outline: none;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 4px 4px;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    text-align: center;
+    border: none;
+    position:relative;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+    background-color: #649bf3;
+}
+
+@media only screen and (max-width: 1700px) {
+    .container{display:inline-block; left: 30%; justify-content: left;}
+}
+
+@media only screen and (max-width: 1300px) {
+    .container{display:inline-block; left: 25%; justify-content: left;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{display:inline-block; left: 15%; justify-content: left;}
+}
+
+@media only screen and (max-width: 800px) {
+    .container{display:inline-block; left: 10%; justify-content: left;}
+}
+
+@media only screen and (max-width: 600px) {
+    .container{display:inline-block; left: 5%; justify-content: left;}
+}

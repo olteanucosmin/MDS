@@ -1,0 +1,31 @@
+body{
+    background-color: #d4dee6;
+}
+
+.container{
+    display: block;
+    position: relative;
+    left:45%;
+    width: 150px;
+}
+
+.button{
+    display: inline-block;
+    outline: none;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 4px 4px;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    text-align: center;
+    border: none;
+    position:relative;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover{
+    color: white;
+    background-color: #649bf3;
+}
+

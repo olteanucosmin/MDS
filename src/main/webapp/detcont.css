@@ -1,0 +1,79 @@
+body{
+    background-color: #d4dee6;
+}
+
+::-webkit-scrollbar {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d4dee6;
+}
+
+::-webkit-scrollbar-thumb{
+    background: cornflowerblue;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #649bf3;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.tabel{
+    border-width: 2px;
+    border-color: #6482da;
+    border-style: solid;
+    display: block;
+    float: top;
+    position: relative;
+    left: 40%;
+    border-collapse: collapse;
+    width: fit-content;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+th{
+    border-right-width: 1px;
+    border-right-color: #6482da;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #6482da;
+    border-bottom-style: solid;
+    margin: auto;
+    padding:5px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+td{
+    border-right-width: 1px;
+    border-right-color: #6482da;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #6482da;
+    border-bottom-style: solid;
+    margin: auto;
+    padding:5px;
+    color: midnightblue;
+}
+
+@media only screen and (max-width: 1500px) {
+    .tabel{ left: 35%;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .tabel{ left: 30%;}
+}
+
+@media only screen and (max-width: 700px) {
+    .tabel{ left: 25%;}
+}
